@@ -1,5 +1,5 @@
 import './App.scss';
-import { ArticalTitle} from './components/ArticleB';
+import { ArticalTitle } from './components/ArticleB';
 import MyArtical from './components/ArticleB';
 import logo from './assets/logo.png';
 
