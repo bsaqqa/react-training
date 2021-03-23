@@ -47,12 +47,38 @@ function App() {
       <img src={logo}  width={50} />
       <img src={require('./assets/logo.png').default}  width={50} />
       <br/>
-      <button onClick={()=> handleButton}>Click Here</button>
+      <button onClick={()=>handleButton}>Click Here</button>
     </div>
   );
 }
-const handleButton = (id)=>{ 
+
+// let user = {
+//   name: 'Ahmed',
+//   fmaily: 'Family'
+// }
+
+// function getFName(){
+//   return this.user.name;
+// }
+// const getFName = (() =>{return this.user.name}, this)();
+
+// function getLName(){
+//   return this.user.fmaily;
+// }
+
+// function getFullName(){
+//   return this.getFName().bind(this) + " " + this.getLName(); 
+// }
+
+
+
+const handleButton = id =>{ 
   alert('Hi')
 };
+// function handleButton(id){
+//   // code 
+// }
+
+
 
 export default App;

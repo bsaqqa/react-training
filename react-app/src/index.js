@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import AppClass from './AppClass';
+import NewApp from './NewApp';
+import EventsComponent from './EventsComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     // <App />,
-    <AppClass />,
+    // <AppClass name="Ahmed"/>,
+    // <NewApp name="Ali"/>,
+    <EventsComponent />,
   document.getElementById('root')
 );
 
