@@ -1,0 +1,17 @@
+#root {
+    /* background-color: brown; */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#loader {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fffe;
+    text-align: center;
+    vertical-align: middle;
+}

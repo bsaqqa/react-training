@@ -7,7 +7,7 @@ const Clock = ()=>{
     useEffect(()=>{ // component did mount
         inter = setInterval(()=> {
             setDate(new Date())
-        }, 1000);
+        }, 1000); 
     },[]);
     useEffect(()=>{ // Component will unmount
         return ()=>{

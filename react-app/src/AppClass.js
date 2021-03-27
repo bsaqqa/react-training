@@ -9,6 +9,7 @@ export default class App extends React.Component {
       name: "Mohmmed"
     };
   }
+  compo
   componentWillMount(){
     this.setState({name: 'ahmed'});
   }

@@ -5,13 +5,19 @@ import App from './App';
 import AppClass from './AppClass';
 import NewApp from './NewApp';
 import EventsComponent from './EventsComponent';
+// import FormComponent from './components/FormComponent';
+import HttpRequestComponent from './components/HttpRequestComponent';
+import HomePage from './HomePage';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     // <App />,
     // <AppClass name="Ahmed"/>,
     // <NewApp name="Ali"/>,
-    <EventsComponent />,
+    // <EventsComponent />,
+    // <FormComponent />,
+    // <HttpRequestComponent/>,
+    <HomePage/>,
   document.getElementById('root')
 );
 
