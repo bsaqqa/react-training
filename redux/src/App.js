@@ -20,7 +20,7 @@ function App() {
             <Route key={'page-'+index} exact path={e.link} children={e.component}/>
           ))}
 
-          <Route key={'page-noMatch'} path="*" >
+          <Route key={'page-noMatch'} exact path="*" >
             <Redirect to="/error"/>
           </Route>
 

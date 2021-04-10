@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-primary {
+    background-color: #006fb9;
+}
+
+.bg-orang {
+    background-color: #ff541f;
+}
+
+.bg-red {
+    background-color: #ee4f3a;
+}
