@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.244" height="74.244" viewBox="0 0 74.244 74.244">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.136" y1="1.713" x2="1.479" y2="-1.368" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00546c"/>
+      <stop offset="1" stop-color="#d6f6ff"/>
+    </linearGradient>
+  </defs>
+  <path id="Zigzag_gradient" data-name="Zigzag gradient" d="M61.459,142.178,60.3,131.611l9.422,1.031-1.034-9.42,9.421,1.032-1.034-9.42,9.419,1.035-1.034-9.42,9.42,1.034L93.85,98.064l9.42,1.033-1.034-9.42,10.564,1.16-.2,1.837-8.274-.909,1.034,9.419-9.42-1.033,1.034,9.42-9.42-1.034,1.034,9.42-9.419-1.035,1.034,9.419L70.78,125.31l1.034,9.42L62.39,133.7l.906,8.279Z" transform="translate(57.894 -106.053) rotate(45)" fill="url(#linear-gradient)"/>
+</svg>
