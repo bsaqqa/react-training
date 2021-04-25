@@ -1,13 +1,16 @@
-const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+      fontFamily:{
+        sans: ['"Poppins"', ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         white: {
-          DEFAULT: colors.white,
+          DEFAULT: defaultTheme.colors.white,
           100: "#ffffff1A",
           500: "#ffffff80",
           900: "#ffffffE6"
