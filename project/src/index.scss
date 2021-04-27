@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+
+
+img{
+    user-select: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.z--1{
+    z-index:-1
+}
+
+//.primary-btn{
+//  @apply text-white font-medium border-2 border-primary-900  bg-primary-900 px-6 lg:px-8 py-2 text-sm rounded-lg whitespace-nowrap transition
+//  &:foucs{
+//    @apply outline-none
+//  }
+//  &:hover{
+//    @apply bg-primary text-white-900 border-primary
+//  }
+//}

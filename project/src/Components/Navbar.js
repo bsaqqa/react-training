@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
     return (
-        <Disclosure as="nav" className="bg-white-900 fixed top-0 left-0 right-0">
+        <Disclosure as="nav" className="bg-white-900 z-10 fixed top-0 left-0 right-0 filter blur-lg">
             {({ open }) => (
                 <>
                     <div className="max-w-6xl mx-auto px-2 md:px-4 lg:px-6">
@@ -53,7 +53,7 @@ export default function Navbar() {
                                                 key={item.name}
                                                 to={item.href}
                                                 className={classNames(
-                                                    item.current ? ' text-primary font-bold' : 'text-gray-300 hover:bg-gray-700 hover:text-secondary',
+                                                    item.current ? ' text-primary font-bold' : 'text-black-300  hover:text-secondary',
                                                     'px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap'
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
@@ -85,7 +85,7 @@ export default function Navbar() {
                                 key={item.name}
                                 to={item.href}
                                 className={classNames(
-                                    item.current ? 'text-primary font-bold' : 'text-gray-300 hover:bg-gray-700 hover:text-secondary',
+                                    item.current ? 'text-primary font-bold' : 'text-black-300  hover:text-secondary',
                                     'block px-3 py-2 rounded-md text-base font-medium whitespace-nowrap'
                                 )}
                                 aria-current={item.current ? 'page' : undefined}

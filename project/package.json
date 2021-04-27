@@ -10,12 +10,17 @@
         "@testing-library/react": "^11.1.0",
         "@testing-library/user-event": "^12.1.10",
         "node-sass": "^5.0.0",
+        "postcss-flexbugs-fixes": "^4",
+        "postcss-import": "^14.0.1",
+        "postcss-nested": "^5.0.5",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-redux": "^7.2.3",
         "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.3",
         "redux": "^4.0.5",
+        "sass-loader": "^11.0.1",
+        "styled-components": "^5.2.3",
         "web-vitals": "^1.0.1"
     },
     "scripts": {
@@ -44,8 +49,8 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss7-compat": "^2.1.0",
-        "autoprefixer": "^9.8.6",
-        "postcss": "^7.0.35",
-        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
+        "autoprefixer": "^7",
+        "postcss": "^7",
+        "tailwindcss": "^2.0.1-compat"
     }
 }
