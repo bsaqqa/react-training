@@ -22,13 +22,19 @@ const io = socketIo(server, {
 io.on("connection", (socket) => {
     console.log("New client connected");
     console.log(socket.id);
+    io.emit('online', socket.id);
 
     socket.on("message", (d) => {
         io.emit("message", d);
     });
     
+    socket.on("read-message", (messageId) => {
+        io.emit("read-message", messageId);
+    });
+    
     socket.on("disconnect", () => {
         console.log("Client disconnected");
+        io.emit('offline', socket.id);
     });
 });
 
